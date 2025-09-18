@@ -1,0 +1,20 @@
+{
+  "name": "amz-jav-tw",
+  "version": "1.0.0",
+  "description": "mtech amazon project",
+  "homepage": "https://github.com/leodsaban10/amz-jav-tw#readme",
+  "bugs": {
+    "url": "https://github.com/leodsaban10/amz-jav-tw/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leodsaban10/amz-jav-tw.git"
+  },
+  "license": "ISC",
+  "author": "Leo Saban",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
