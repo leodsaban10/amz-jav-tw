@@ -20,4 +20,22 @@ class Cart {
             });
         }
     }
+    getItemCount() {
+        let totalCount = 0;
+
+        //Go through each item in the cart
+        for (let item of this.cartItems) {
+            totalCount += item.quantity;
+        }
+
+        return totalCount;
+    }
+    calculateTotal() {
+        let productTotal = 0;
+
+        for (let item of this.cartItems) {
+            item.quantity * item.product.price;
+        }
+        return productTotal;
+    }
 }
