@@ -34,8 +34,10 @@ class Cart {
         let productTotal = 0;
 
         for (let item of this.cartItems) {
-            item.quantity * item.product.price;
+            productTotal += item.quantity * item.product.price; //this add the total of quantity * price to the productTotal
+            
         }
         return productTotal;
     }
 }
+
